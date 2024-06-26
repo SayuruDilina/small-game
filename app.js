@@ -34,7 +34,7 @@
 // customer01.setName("Sayuru");
 // console.log( customer01.getName());
 let randomNumber=Math.floor(Math.random()*10+1);
-console.log(randomNumber);
+
 let count=0;
 
 function numberGuess(){
@@ -63,6 +63,6 @@ function numberGuess(){
 }
 function setNewNum(){
     let randomNumber=Math.floor(Math.random()*10+1);
-    console.log(randomNumber);
+    
     count=0;
 }
